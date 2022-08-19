@@ -6,7 +6,7 @@ email: 18435151968@yeah.net
 description: "方便您全方位了解我"
 keyword: "UX, UI, Sketch, Figma, PS"
 url: "https://learnging.github.io"          # your host, for absolute URL
-baseurl: "/cv"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/learnging/learnging.github.io.git" # you code repository
 
 # Sidebar settings
