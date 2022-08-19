@@ -6,7 +6,7 @@ email: 18435151968@yeah.net
 description: "方便您全方位了解我"
 keyword: "UX, UI, Sketch, Figma, PS"
 url: "https://learnging.github.io"          # your host, for absolute URL
-baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/learnging/learnging.github.io.git" # you code repository
 
 # Sidebar settings
@@ -17,8 +17,8 @@ sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in b
 
 
 # SNS settings
-RSS: true
-weixin_username:     18435151968
+RSS: false
+# weixin_username:     18435151968
 # zhihu_username:     qiubaiying
 # github_username:    qiubaiying
 # facebook_username:  baiying.qiu.7
@@ -91,7 +91,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#483c32"
+chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
