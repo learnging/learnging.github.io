@@ -3,24 +3,6 @@ layout: page
 description: "作品集描述占位"
 ---
 
-
-<ul class="pager">
-  
-    <li class="next">
-        <a href="https://www.baidu.com" data-toggle="tooltip" data-placement="top" title="UI设计">
-                        开始阅读<br>
-        </a>
-    </li>           
-  
-    <li class="next">
-        <a href="https://www.bing.com" data-toggle="tooltip" data-placement="top" title="交互设计">
-                        开始阅读<br>
-        </a>
-    </li>
-                    
-</ul>
-
-
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
