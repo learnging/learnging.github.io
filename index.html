@@ -1,46 +1,29 @@
 ---
 layout: default
 description: " "
-header-img: "img/1.png"
+header-img: "img/post-bg-coffee.jpg"
 permalink: /index.html
 
 ---
 
 
 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">       
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="format-detection" content="telephone=no">
-<title>长背景图测试/title>
-<style type="text/css">
-        //body里面的属性min-height是关键，网上说直接设置成100vh即可，如果不可以可以自己微调
-    body{
-        background:url(./images/download_bg.png) no-repeat;
-        background-size:100%;
-                //方案1
-        min-height: 185vh;
-                //方案2，本质等价于方案一,如果两个方案是同时开启，则会使用高度更小的那个，已测试
-                //height:1200px;
-    }
- 
-    #btn{
-        margin-top: 150px;
-        text-align: center;
-    }  
-     
- 
-</style>
-<body>
- 
-<div id="btn">
-    <a href="{{site.baseurl}}">
-    <img src="./img/apple-touch-icon.png" width="90%" alt="跳转到某个网页地址"/></a>
-</div>   
- 
-</body>
-</html>
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>
+                    <a href="{{site.baseurl}}/files/三叶语词汇表_V0.6.pdf" style="color: #ffffff;">作品集预览</a>
+                    </h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.body.classList.add('page-fullscreen');
+</script>
